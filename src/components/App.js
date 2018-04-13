@@ -3,7 +3,7 @@ import Home from './Home'
 import About from './About'
 import Topics from './Topics'
 import { // all these we're importing are components
-  BrowserRouter,
+  BrowserRouter, // only needed once at the root of the application
   Route,
   Link
 } from 'react-router-dom'
