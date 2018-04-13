@@ -26,7 +26,7 @@ export default function Topics({ match }) {
 
       <hr />
 
-      <Route path='/topics/:topicId' component={Topic}></Route>
+      <Route path={`${match.path}/:topicId`} component={Topic}></Route>
     </div>
   )
 }
